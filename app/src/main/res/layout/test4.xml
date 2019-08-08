@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lyrics"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_red_light"
+            android:padding="6dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Escape
+
+Finally getting what I wanted but I'm feeling off
+Numbers going up but I feel like I'm falling off
+All the love that's coming turning into pressure
+Everybody watching me, hope they really think I'm good enough
+Think I bit a little more than I can chew
+All the good coming with bad wish that I could pick and choose
+I've been running from myself, know I got a lot to lose
+Ever looked into the mirror and you see a different you? Damn
+I can't really put a finger on the problem though
+Feel like everything is adding up I gotta let it go
+All the weight up on my shoulders but it's getting heavy though
+I know I said I'm ready but lately I just don't really know
+I been doing everything that I would dream about
+So how can I complain when everything is working out
+I can't explain but I've been going down the wrong path
+Know that times are hard but I'm hoping that it don't last
+
+Falling away
+I'm feeling my pain
+Tryna let go
+But I can't escape
+Falling away
+I'm feelin my pain
+Tryna let go
+But I can't escape
+
+"
+        android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:padding="6dp"
+            android:layout_margin="6dp"/>
+    </LinearLayout>
+
+</LinearLayout>
